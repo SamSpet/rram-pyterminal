@@ -1,8 +1,9 @@
 import serial
-import CommandMap as CM
-import MNIST, TEST, USER
-import DEMO, UTF8, RRAM, VECTOR, DNN
-import EEPROM, PM, LED, DF, DAC, TC, BOARD
+from Lib import CommandMap as CM
+import USER
+from Applications import MNIST
+from Lib import DEMO, UTF8, RRAM, VECTOR, DNN, TEST
+from Board import EEPROM, PM, LED, DF, DAC, TC, BOARD
 
 VID = '0x03EB'    # Atmel
 PID = '0x204B'    # LUFA USB to Serial Demo Application

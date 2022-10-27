@@ -1,9 +1,9 @@
-import CommandMap as CM
+from Lib import CommandMap as CM
 import PyTerminal as PT
 import random
 import time
 
-import RRAM
+from Lib import RRAM
 
 def check_chip_VRef():
     """ Check ADC settings (i.e. Offset/Step) for the whole chip and mark the ones that are faulty

@@ -1,4 +1,4 @@
-import CommandMap as CM
+from Lib import CommandMap as CM
 import PyTerminal as PT
 
 import importlib
@@ -9,7 +9,7 @@ import io
 import torch
 import math
 
-import RRAM, DNN
+from Lib import RRAM, DNN
 
 from tkinter import *
 from tkinter import font

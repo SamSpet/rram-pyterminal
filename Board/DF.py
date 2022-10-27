@@ -1,4 +1,4 @@
-import CommandMap as CM
+from Lib import CommandMap as CM
 import PyTerminal as PT
 
 LevelDict = {'chip'  : b'\x41'.decode('utf-8'),
